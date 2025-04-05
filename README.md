@@ -5,7 +5,7 @@ Welcome to my repository! This is a collection of C++ projects I’ve built to e
 
 Projects Overview 🧑‍💻
 
-===========================================================================================================================
+=========================================================================
  
 1. Tic Tac Toe Game 
 A classic Tic Tac Toe game implemented entirely in C++, designed to run via command-line arguments.  
@@ -24,7 +24,7 @@ Command-line interface for a lightweight experience.
 Note: There’s no graphical interface; the game runs purely on the terminal.
 
 
-===========================================================================================================================
+=========================================================================
 
 2. Hotel Management System 
 A Hotel Management System implemented in C++, designed to provide a better understanding of how embedded systems and software work together behind the scenes.  
@@ -39,8 +39,7 @@ Learning Outcome: Gain insights into how software can interact with embedded sys
 
 Note: No preview is available as this is a terminal-based application.
 
-
-===========================================================================================================================
+=========================================================================
 
 3. Browser Navigator 
 A conceptual project implemented in C++ to simulate browser navigation logic.  
@@ -54,7 +53,7 @@ Command-line based, with no graphical interface.
 Note: No visual preview is available; the project is meant to demonstrate the underlying logic.
 
 
-===========================================================================================================================
+=========================================================================
 
 4. STL (Standard Template Library) Notes 
 A folder containing my personal notes on the C++ Standard Template Library (STL).  
@@ -66,7 +65,7 @@ Examples of STL components like vectors, maps, and algorithms.
 Why It’s Here: These notes reflect my journey of mastering STL, and I now have a strong command over it. They might be helpful for anyone learning STL from scratch.
 
 
-===========================================================================================================================
+=========================================================================
 
 5. Registration & Login System 
 A simple Registration and Login system implemented in C++.  
@@ -106,7 +105,7 @@ Tools: Command-line interface, C++ Standard Template Library (STL)
 
 Environment: Terminal-based applications
 
-===========================================================================================================================
+=========================================================================
 
 Why This Repository ❓
 This repository is a reflection of my journey in mastering C++ and understanding how software systems work. Each project, whether it’s a game like Tic Tac Toe or a system like Hotel Management, showcases my ability to:
@@ -119,7 +118,7 @@ Work with data structures and algorithms (e.g., STL).
 Build projects that mimic real-world applications.
 
 
-===========================================================================================================================
+=========================================================================
 
 Future Improvements 🔮
 Add graphical interfaces (e.g., using SFML or Qt) for projects like Tic Tac Toe and Hotel Management System.
@@ -129,7 +128,7 @@ Enhance the Registration/Login system with file-based storage for user data.
 Expand the Browser Navigator project to include more features like tab management.
 
 
-===========================================================================================================================
+=========================================================================
 Contributions 
 Contributions are welcome! If you have ideas to improve any of the projects or want to add new features, feel free to:
 Fork the repository.
