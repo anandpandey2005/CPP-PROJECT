@@ -1,0 +1,63 @@
+Binary Tree Representation in C++
+A Binary Tree is a hierarchical data structure in which each node has at most two children, referred to as left and right.
+
+-------------------------------------
+Node Structure (Class Definition)
+------
+class Tree {
+private:
+    int data;
+    Tree* left;
+    Tree* right;
+
+public:
+    // Constructor
+    Tree(int val) : data(val), left(nullptr), right(nullptr) {}  // inline Constructor
+};
+------------------------------------------------------
+ Key Points:
+---------
+Each node stores:
+A value --> data
+A pointer to the left child
+A pointer to the right child
+All children are initialized to nullptr (i.e., no children initially)
+
+-------------------------------------------------------
+Tree Construction Example
+--------
+int main() {
+    Tree* root = new Tree(1);           // Root node
+
+    root->left = new Tree(2);           // Left child of root
+    root->right = new Tree(3);          // Right child of root
+
+    root->left->left = new Tree(4);     // Left child of node 2
+    root->left->right = new Tree(5);    // Right child of node 2
+
+    root->right->left = new Tree(6);    // Left child of node 3
+    root->right->right = new Tree(7);   // Right child of node 3
+}
+
+-----------------------------------------------
+Visual Representation of the Tree
+-------
+
+             1
+           /   \
+         2       3
+        / \     / \
+       4   5   6   7
+Each level shows child connections.
+
+Node 1 is the root.
+Nodes 2 and 3 are children of root.
+Nodes 4, 5, 6, 7 are leaf nodes.
+
+-------------------------------------------------
+Term	          Meaning
+Root	          Topmost node (entry point)
+Leaf	          Node with no children
+Subtree	Tree      rooted at any node
+nullptr	          Used to indicate no child
+Binary Tree    	  Max two children per node

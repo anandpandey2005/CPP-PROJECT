@@ -1,0 +1,36 @@
+Binary Tree
+A Binary Tree is a hierarchical data structure in which each node has at most two children, referred to as the left child and right child.
+
+-------------------------------
+Types of Binary Trees
+-------
+
+-------> Full Binary Tree
+
+->Every node has either 0 or 2 children.
+->No node has only one child.
+
+-------> Complete Binary Tree
+
+->All levels are completely filled, except possibly the last.
+->In the last level, all nodes are as far left as possible.
+
+-------> Perfect Binary Tree
+
+->All internal nodes have 2 children.
+->All leaf nodes are at the same level.
+
+--------> Balanced Binary Tree
+
+->The difference in height between the left and right subtrees of every node is no more than 1.
+->Overall height of the tree is O(log N) where N is the number of nodes.
+
+-------> Degenerate (Skewed) Tree
+
+->Every parent node has only one child.
+->It behaves like a linked list.
+
+Two types:
+
+->Left Skewed (only left child exists)
+->Right Skewed (only right child exists)

@@ -1,0 +1,13 @@
+TRAVERSAL TECHNIQUE ( BFS / DFS)
+
+--------> DFS 
+
+-> Inorder (left , root , right)
+-> Preorder (root , left , right)
+-> postfix  (left , right , root)
+
+--------> BFS 
+
+-> PRINT LEVELWISE FROM LEFT END TO RIGHT END 
+
+          
